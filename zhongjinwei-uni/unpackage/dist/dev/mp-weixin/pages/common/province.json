@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "gk-city": "/components/gk-city/gk-city"
+  },
+  "component": true
+}

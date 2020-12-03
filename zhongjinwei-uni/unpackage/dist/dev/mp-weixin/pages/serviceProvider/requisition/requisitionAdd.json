@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加-申请单",
+  "usingComponents": {
+    "requisition": "/pages/serviceProvider/requisition/requisition"
+  }
+}

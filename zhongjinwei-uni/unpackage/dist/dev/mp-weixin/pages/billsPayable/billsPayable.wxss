@@ -1,0 +1,90 @@
+.box.data-v-0f5e8bc6 {
+  padding: 10rpx 20rpx 0rpx 20rpx;
+}
+.scroll-Y.data-v-0f5e8bc6 {
+  padding-bottom: 10rpx;
+}
+.list.data-v-0f5e8bc6 {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 10rpx;
+  height: 120rpx;
+  margin-top: 2rpx;
+  box-sizing: border-box;
+}
+.list .left.data-v-0f5e8bc6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100rpx;
+  margin-right: 10rpx;
+}
+.list .left image.data-v-0f5e8bc6 {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 10rpx;
+}
+.list .right.data-v-0f5e8bc6 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-right: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.list .right .right_top.data-v-0f5e8bc6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.list .right .right_top text.data-v-0f5e8bc6:first-child {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #333333;
+  font-weight: 700;
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.list .right .right_top text.data-v-0f5e8bc6:last-child {
+  color: #d81e06;
+  font-size: 24rpx;
+}
+.list .right .right_bottom.data-v-0f5e8bc6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.list .right .right_bottom text.data-v-0f5e8bc6:first-child {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #333333;
+  font-size: 26rpx;
+}
+.list .right .right_bottom text.data-v-0f5e8bc6:last-child {
+  color: #fff;
+  padding: 4rpx 10rpx;
+  border-radius: 4rpx;
+  font-size: 20rpx;
+}
+

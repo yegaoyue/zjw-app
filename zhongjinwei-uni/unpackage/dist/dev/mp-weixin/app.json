@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/billsPayable/billsPayable",
+    "pages/billsPayable/billsPayableDetail",
+    "pages/entrustedAgency/receivePayment/receivePayment",
+    "pages/entrustedAgency/receivePayment/receivePaymentDetails",
+    "pages/entrustedAgency/upcoming/upcoming",
+    "pages/common/carDetails",
+    "pages/entrustedAgency/upcoming/upcomingDetails",
+    "pages/entrustedAgency/processing/processing",
+    "pages/entrustedAgency/processing/processingDetails",
+    "pages/serviceProvider/requisition/requisitionAdd",
+    "pages/serviceProvider/requisition/requisitionModify",
+    "pages/serviceProvider/requisitionData/requisitionData",
+    "pages/serviceProvider/requisition/carData",
+    "pages/serviceProvider/requisition/carSeries",
+    "pages/serviceProvider/requisition/carYear",
+    "pages/serviceProvider/requisition/carType",
+    "pages/my/changePassword",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "tab-bar": "/pages/common/tabBar"
+  },
+  "sitemapLocation": "sitemap32.json"
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "办理中详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "xfl-select": "/components/xfl-select/xfl-select",
+    "car-details": "/pages/common/carDetails",
+    "image-up": "/pages/common/imageUp"
+  }
+}

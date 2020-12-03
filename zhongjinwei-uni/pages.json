@@ -1,0 +1,182 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"titleNView": "false"
+
+			}
+		},
+		{
+			"path": "pages/billsPayable/billsPayable",
+			"style": {
+				"navigationBarTitleText": "应付-账单",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#518baf"
+
+			}
+		},
+		{
+			"path": "pages/billsPayable/billsPayableDetail",
+			"style": {
+				"navigationBarTitleText": "应付-账单详情",
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/entrustedAgency/receivePayment/receivePayment",
+			"style": {
+				"navigationBarTitleText": "收款-账单",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#518baf"
+
+			}
+		},
+		{
+			"path": "pages/entrustedAgency/receivePayment/receivePaymentDetails",
+			"style": {
+				"navigationBarTitleText": "收款-账单详情",
+				"enablePullDownRefresh": true
+
+			}
+		},
+
+		{
+			"path": "pages/entrustedAgency/upcoming/upcoming",
+			"style": {
+				"navigationBarTitleText": "待办",
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/common/carDetails",
+			"style": {
+				"navigationBarTitleText": "详情"
+
+
+			}
+		},
+		{
+			"path": "pages/entrustedAgency/upcoming/upcomingDetails",
+			"style": {
+				"navigationBarTitleText": "待办详情",
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/entrustedAgency/processing/processing",
+			"style": {
+				"navigationBarTitleText": "办理中",
+				"enablePullDownRefresh": true
+
+			}
+		}, {
+			"path": "pages/entrustedAgency/processing/processingDetails",
+			"style": {
+				"navigationBarTitleText": "办理中详情",
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/serviceProvider/requisition/requisitionAdd",
+			"style": {
+				"navigationBarTitleText": "添加-申请单"
+
+			}
+		},
+		{
+			"path": "pages/serviceProvider/requisition/requisitionModify",
+			"style": {
+				"navigationBarTitleText": "申请单"
+
+			}
+		},
+		{
+			"path": "pages/serviceProvider/requisitionData/requisitionData",
+			"style": {
+				"navigationBarTitleText": "申请单",
+				"enablePullDownRefresh": true
+
+			}
+		},
+
+		{
+			"path": "pages/serviceProvider/requisition/carData",
+			"style": {
+				"navigationBarTitleText": "品牌"
+
+			}
+		},
+		{
+			"path": "pages/serviceProvider/requisition/carSeries",
+			"style": {
+				"navigationBarTitleText": "车系"
+
+			}
+		},
+		{
+			"path": "pages/serviceProvider/requisition/carYear",
+			"style": {
+				"navigationBarTitleText": "年份"
+
+			}
+		},
+		{
+			"path": "pages/serviceProvider/requisition/carType",
+			"style": {
+				"navigationBarTitleText": "车型"
+
+			}
+		}, {
+			"path": "pages/my/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改-密码"
+
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"titleNView": "false"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	}
+	// ,
+	// "tabBar": {
+	// 	"custom": true,
+	// 	"color": "#333333",
+	// 	"selectedColor": "#4256A8",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [
+
+	// 		{
+	// 			"pagePath": "pages/index/index",
+	// 			"iconPath": "static/images/home1.png",
+	// 			"selectedIconPath": "static/images/home2.png",
+	// 			"text": "B首页"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/my/my",
+	// 			"iconPath": "static/images/my1.png",
+	// 			"selectedIconPath": "static/images/my2.png",
+	// 			"text": "B我的"
+	// 		}
+
+
+	// 	]
+	// }
+
+}

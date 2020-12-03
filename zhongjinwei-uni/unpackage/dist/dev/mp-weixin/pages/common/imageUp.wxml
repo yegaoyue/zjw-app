@@ -1,0 +1,1 @@
+<view><img-upload vue-id="707e1d0a-1" config="{{config}}" imgCount="1" imgArr="{{imgArray}}" displayUp="{{displayUp}}" header="{{head}}" formData="{{formData}}" async="{{true}}" url="{{baseUrlImage+'sys/file/uploadName'}}" data-event-opts="{{[['^delImg',[['delImg']]],['^result',[['resultUrl']]]]}}" bind:delImg="__e" bind:result="__e" bind:__l="__l"></img-upload></view>

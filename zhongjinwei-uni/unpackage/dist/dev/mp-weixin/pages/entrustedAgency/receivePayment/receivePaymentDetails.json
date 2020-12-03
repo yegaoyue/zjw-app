@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "收款-账单详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "image-up": "/pages/common/imageUp"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "img-upload": "/components/poiuy-uImgUpload/imgUpload"
+  }
+}

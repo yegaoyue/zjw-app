@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "收款-账单",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#518baf",
+  "usingComponents": {}
+}

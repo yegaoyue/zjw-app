@@ -1,0 +1,37 @@
+{
+  "id": "2040189",
+  "name": "uni-app",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16780728",
+      "name": "登录-密码",
+      "font_class": "denglu-mima",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "16780729",
+      "name": "登录-密码可见",
+      "font_class": "denglu-mimakejian",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "16780732",
+      "name": "登录-密码不可见",
+      "font_class": "denglu-mimabukejian",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "16780734",
+      "name": "登录-用户名",
+      "font_class": "denglu-yonghuming",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}
