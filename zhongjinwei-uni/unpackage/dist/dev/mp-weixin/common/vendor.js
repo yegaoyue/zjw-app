@@ -1936,9 +1936,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 11:
-/*!********************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/utils/utils.js ***!
-  \********************************************************************************/
+/*!****************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/utils/utils.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1996,10 +1996,252 @@ utils;exports.default = _default;
 
 /***/ }),
 
-/***/ 171:
-/*!*******************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/common/city.data.js ***!
-  \*******************************************************************************************/
+/***/ 18:
+/*!********************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/utils/interface.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.loginApp = loginApp;exports.updateFinanceInfo = updateFinanceInfo;exports.confirmCollectionEntrusted = confirmCollectionEntrusted;exports.addModApply = addModApply;exports.updateModApply = updateModApply;exports.updateModApplySubmit = updateModApplySubmit;exports.vehicleAdministration = vehicleAdministration;exports.getBrandsListForApp = getBrandsListForApp;exports.getSeriesByIdForApp = getSeriesByIdForApp;exports.getSeriesyearForApp = getSeriesyearForApp;exports.getCarInfo = getCarInfo;exports.logout = logout;exports.updatePassword = updatePassword;exports.getModApplyForApp = getModApplyForApp;exports.handleMoneyForService = handleMoneyForService;exports.getFinanceEntrustedList = getFinanceEntrustedList;exports.getApplyFinance = getApplyFinance;exports.getApplyFinanceEntrusted = getApplyFinanceEntrusted;exports.getFacilitatorInfoById = getFacilitatorInfoById;exports.getApplyListEntrusted = getApplyListEntrusted;exports.getUserInfoBySfId = getUserInfoBySfId;exports.confirmationModApply = confirmationModApply;exports.distributionModApply = distributionModApply;exports.RefuseModApply = RefuseModApply;exports.getAppMenu = getAppMenu;exports.uploadUrl = exports.baseUrl = void 0;var _request = _interopRequireDefault(__webpack_require__(/*! ./request.js */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var baseUrl = _request.default.baseUrl;exports.baseUrl = baseUrl;
+var uploadUrl = _request.default.uploadUrl;
+
+
+
+// 登入
+exports.uploadUrl = uploadUrl;function loginApp(data) {
+  return _request.default.baseRequest({
+    url: 'sys/loginApp',
+    method: 'post' },
+
+  data);
+}
+
+// 确认打款
+function updateFinanceInfo(data) {
+  return _request.default.baseRequest({
+    url: 'finance/updateFinanceInfo',
+    method: 'post' },
+
+  data);
+}
+
+// 确认收款
+function confirmCollectionEntrusted(data) {
+  return _request.default.baseRequest({
+    url: 'finance/confirmCollectionEntrusted',
+    method: 'post' },
+
+  data);
+}
+
+// 申请单保存
+function addModApply(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/addModApply',
+    method: 'post' },
+
+  data);
+}
+
+// 申请单修改
+function updateModApply(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/updateModApply',
+    method: 'post' },
+
+  data);
+}
+
+// 申请单提报
+function updateModApplySubmit(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/updateModApplySubmit',
+    method: 'post' },
+
+  data);
+}
+
+// 车管所
+function vehicleAdministration(data) {
+  return _request.default.baseRequest({
+    url: 'dmv/getDmvForAdrress',
+    method: 'post' },
+
+  data);
+}
+
+//车辆品牌
+function getBrandsListForApp(data) {
+  return _request.default.baseRequest({
+    url: 'brands/getBrandsListForApp',
+    method: 'get' },
+
+  data);
+}
+
+// 车系
+function getSeriesByIdForApp(data) {
+  return _request.default.baseRequest({
+    url: 'serieses/getSeriesByIdForApp',
+    method: 'get' },
+
+  data);
+}
+
+// 年份
+function getSeriesyearForApp(data) {
+  return _request.default.baseRequest({
+    url: 'seriesyear/getSeriesyearForApp',
+    method: 'get' },
+
+  data);
+}
+
+// 类型
+function getCarInfo(data) {
+  return _request.default.baseRequest({
+    url: 'car/getCarInfo',
+    method: 'get' },
+
+  data);
+}
+
+// 退出
+function logout(data) {
+  return _request.default.baseRequest({
+    url: 'sys/user/logout',
+    method: 'post' },
+
+  data);
+}
+
+// 修改密码
+function updatePassword(data) {
+  return _request.default.baseRequest({
+    url: 'user/updatePassword',
+    method: 'post' },
+
+  data);
+}
+
+// 申请单页面数据
+function getModApplyForApp(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/getModApplyForApp',
+    method: 'get' },
+
+  data);
+}
+
+// 应付账单数据
+function handleMoneyForService(data) {
+  return _request.default.baseRequest({
+    url: 'finance/handleMoneyForService',
+    method: 'get' },
+
+  data);
+}
+
+// 收款账单数据
+function getFinanceEntrustedList(data) {
+  return _request.default.baseRequest({
+    url: 'finance/getFinanceEntrustedList',
+    method: 'get' },
+
+  data);
+}
+
+// 财务申请数量数据
+function getApplyFinance(data) {
+  return _request.default.baseRequest({
+    url: 'finance/getApplyFinance',
+    method: 'get' },
+
+  data);
+}
+
+// 委托机构申请数量数据
+function getApplyFinanceEntrusted(data) {
+  return _request.default.baseRequest({
+    url: 'finance/getApplyFinanceEntrusted',
+    method: 'get' },
+
+  data);
+}
+
+// 应收方银行信息
+function getFacilitatorInfoById(data) {
+  return _request.default.baseRequest({
+    url: 'facilitator/getFacilitatorInfoById',
+    method: 'get' },
+
+  data);
+}
+
+
+// 待办列表数据
+function getApplyListEntrusted(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/getApplyListEntrusted',
+    method: 'get' },
+
+  data);
+}
+
+// 办理人员数据
+function getUserInfoBySfId(data) {
+  return _request.default.baseRequest({
+    url: 'userinfo/getUserInfoBySfId',
+    method: 'get' },
+
+  data);
+}
+
+// 办理中提交
+function confirmationModApply(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/confirmationModApply',
+    method: 'get' },
+
+  data);
+}
+
+// 分配
+function distributionModApply(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/distributionModApply',
+    method: 'get' },
+
+  data);
+}
+
+// 拒办
+function RefuseModApply(data) {
+  return _request.default.baseRequest({
+    url: 'modApply/RefuseModApply',
+    method: 'get' },
+
+  data);
+}
+
+// 菜单
+function getAppMenu(data) {
+  return _request.default.baseRequest({
+    url: 'appMenu/getAppMenu',
+    method: 'get' },
+
+  data);
+}
+
+/***/ }),
+
+/***/ 180:
+/*!***************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/common/city.data.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15778,246 +16020,22 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 18:
-/*!************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/utils/interface.js ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.updateFinanceInfo = updateFinanceInfo;exports.confirmCollectionEntrusted = confirmCollectionEntrusted;exports.addModApply = addModApply;exports.updateModApply = updateModApply;exports.updateModApplySubmit = updateModApplySubmit;exports.vehicleAdministration = vehicleAdministration;exports.getBrandsListForApp = getBrandsListForApp;exports.getSeriesByIdForApp = getSeriesByIdForApp;exports.getSeriesyearForApp = getSeriesyearForApp;exports.getCarInfo = getCarInfo;exports.logout = logout;exports.updatePassword = updatePassword;exports.getModApplyForApp = getModApplyForApp;exports.handleMoneyForService = handleMoneyForService;exports.getFinanceEntrustedList = getFinanceEntrustedList;exports.getApplyFinance = getApplyFinance;exports.getApplyFinanceEntrusted = getApplyFinanceEntrusted;exports.getFacilitatorInfoById = getFacilitatorInfoById;exports.getApplyListEntrusted = getApplyListEntrusted;exports.getUserInfoBySfId = getUserInfoBySfId;exports.confirmationModApply = confirmationModApply;exports.distributionModApply = distributionModApply;exports.RefuseModApply = RefuseModApply;exports.uploadUrl = exports.baseUrl = void 0;var _request = _interopRequireDefault(__webpack_require__(/*! ./request.js */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-var baseUrl = _request.default.baseUrl;exports.baseUrl = baseUrl;
-var uploadUrl = _request.default.uploadUrl;
-
-
-
-// 确认打款
-exports.uploadUrl = uploadUrl;function updateFinanceInfo(data) {
-  return _request.default.baseRequest({
-    url: 'finance/updateFinanceInfo',
-    method: 'post' },
-
-  data);
-}
-
-// 确认收款
-function confirmCollectionEntrusted(data) {
-  return _request.default.baseRequest({
-    url: 'finance/confirmCollectionEntrusted',
-    method: 'post' },
-
-  data);
-}
-
-// 申请单保存
-function addModApply(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/addModApply',
-    method: 'post' },
-
-  data);
-}
-
-// 申请单修改
-function updateModApply(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/updateModApply',
-    method: 'post' },
-
-  data);
-}
-
-// 申请单提报
-function updateModApplySubmit(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/updateModApplySubmit',
-    method: 'post' },
-
-  data);
-}
-
-// 车管所
-function vehicleAdministration(data) {
-  return _request.default.baseRequest({
-    url: 'dmv/getDmvForAdrress',
-    method: 'post' },
-
-  data);
-}
-
-//车辆品牌
-function getBrandsListForApp(data) {
-  return _request.default.baseRequest({
-    url: 'brands/getBrandsListForApp',
-    method: 'get' },
-
-  data);
-}
-
-// 车系
-function getSeriesByIdForApp(data) {
-  return _request.default.baseRequest({
-    url: 'serieses/getSeriesByIdForApp',
-    method: 'get' },
-
-  data);
-}
-
-// 年份
-function getSeriesyearForApp(data) {
-  return _request.default.baseRequest({
-    url: 'seriesyear/getSeriesyearForApp',
-    method: 'get' },
-
-  data);
-}
-
-// 类型
-function getCarInfo(data) {
-  return _request.default.baseRequest({
-    url: 'car/getCarInfo',
-    method: 'get' },
-
-  data);
-}
-
-// 退出
-function logout(data) {
-  return _request.default.baseRequest({
-    url: 'sys/user/logout',
-    method: 'post' },
-
-  data);
-}
-
-// 修改密码
-function updatePassword(data) {
-  return _request.default.baseRequest({
-    url: 'user/updatePassword',
-    method: 'post' },
-
-  data);
-}
-
-// 申请单页面数据
-function getModApplyForApp(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/getModApplyForApp',
-    method: 'get' },
-
-  data);
-}
-
-// 应付账单数据
-function handleMoneyForService(data) {
-  return _request.default.baseRequest({
-    url: 'finance/handleMoneyForService',
-    method: 'get' },
-
-  data);
-}
-
-// 收款账单数据
-function getFinanceEntrustedList(data) {
-  return _request.default.baseRequest({
-    url: 'finance/getFinanceEntrustedList',
-    method: 'get' },
-
-  data);
-}
-
-// 财务申请数量数据
-function getApplyFinance(data) {
-  return _request.default.baseRequest({
-    url: 'finance/getApplyFinance',
-    method: 'get' },
-
-  data);
-}
-
-// 委托机构申请数量数据
-function getApplyFinanceEntrusted(data) {
-  return _request.default.baseRequest({
-    url: 'finance/getApplyFinanceEntrusted',
-    method: 'get' },
-
-  data);
-}
-
-// 应收方银行信息
-function getFacilitatorInfoById(data) {
-  return _request.default.baseRequest({
-    url: 'facilitator/getFacilitatorInfoById',
-    method: 'get' },
-
-  data);
-}
-
-
-// 待办列表数据
-function getApplyListEntrusted(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/getApplyListEntrusted',
-    method: 'get' },
-
-  data);
-}
-
-// 办理人员数据
-function getUserInfoBySfId(data) {
-  return _request.default.baseRequest({
-    url: 'userinfo/getUserInfoBySfId',
-    method: 'get' },
-
-  data);
-}
-
-// 办理中提交
-function confirmationModApply(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/confirmationModApply',
-    method: 'get' },
-
-  data);
-}
-
-// 分配
-function distributionModApply(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/distributionModApply',
-    method: 'get' },
-
-  data);
-}
-
-// 拒办
-function RefuseModApply(data) {
-  return _request.default.baseRequest({
-    url: 'modApply/RefuseModApply',
-    method: 'get' },
-
-  data);
-}
-
-/***/ }),
-
 /***/ 19:
-/*!**********************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/utils/request.js ***!
-  \**********************************************************************************/
+/*!******************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/utils/request.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // const baseUrl = "http://172.16.9.200/collection/"; //200
-var baseUrl = "http://172.16.8.38:8088/collection/"; //马奎
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var baseUrl = "http://172.16.9.200/collection/"; //200
+// const baseUrl = "http://172.16.8.38:8088/collection/"; //马奎
 // const baseUrl = "http://172.16.8.31:8088/collection/"; //顶重阳
 var uploadUrl = "http://172.16.9.200:8055/"; //图片查看
 // 定义基础请求路径(后端服务器地址)
 var baseRequest = function baseRequest(opts, data) {
   uni.showLoading({
-    title: '执行中',
+    title: '加载中...',
     mask: true });
 
 
@@ -16061,10 +16079,17 @@ var baseRequest = function baseRequest(opts, data) {
   var promise = new Promise(function (resolve, reject) {
     uni.request(baseDefaultOpts).then(
     function (res) {
+      uni.hideLoading(); //隐藏 loading 提示框。
+      uni.stopPullDownRefresh(); //停止当前页面下拉刷新。
+
       if (res[1].data.code === 0) {
         // 请求成功
-        uni.hideLoading(); //隐藏 loading 提示框。
-        uni.stopPullDownRefresh(); //停止当前页面下拉刷新。
+        // uni.showToast({
+        // 	title: res[1].data.msg,
+        // 	duration: 2000,
+        // 	icon: 'none',
+        // });
+
       } else if (res[1].data.code === 500) {
         // 系统错误
         uni.showToast({
@@ -16086,7 +16111,6 @@ var baseRequest = function baseRequest(opts, data) {
           duration: 2000,
           icon: 'none' });
 
-        uni.removeStorageSync('toKen');
         uni.reLaunch({
           url: '/' });
 
@@ -16104,12 +16128,10 @@ var baseRequest = function baseRequest(opts, data) {
     catch(
     function (response) {
       uni.showToast({
-        title: '请求超时',
+        title: '请求出错啦!',
         duration: 2000,
         icon: 'none' });
 
-      uni.hideLoading(); //隐藏 loading 提示框。
-      uni.stopPullDownRefresh(); //停止当前页面下拉刷新。
       reject(response);
     });
 
@@ -22174,10 +22196,10 @@ internalMixin(Vue);
 
 /***/ }),
 
-/***/ 214:
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/components/uni-icons/icons.js ***!
-  \***********************************************************************************************/
+/***/ 223:
+/*!*******************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/components/uni-icons/icons.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22316,18 +22338,18 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 229:
+/***/ 238:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 230);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 239);
 
 /***/ }),
 
-/***/ 230:
+/***/ 239:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -22358,7 +22380,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 231);
+module.exports = __webpack_require__(/*! ./runtime */ 240);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -22375,7 +22397,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 231:
+/***/ 240:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -23107,15 +23129,15 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 239:
-/*!***********************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/components/uni-popup/popup.js ***!
-  \***********************************************************************************************/
+/***/ 248:
+/*!*******************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/components/uni-popup/popup.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _message = _interopRequireDefault(__webpack_require__(/*! ./message.js */ 240));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _message = _interopRequireDefault(__webpack_require__(/*! ./message.js */ 249));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 // 定义 type 类型:弹出类型：top/bottom/center
 var config = {
   // 顶部弹出
@@ -23142,10 +23164,10 @@ var config = {
 
 /***/ }),
 
-/***/ 240:
-/*!*************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/components/uni-popup/message.js ***!
-  \*************************************************************************************************/
+/***/ 249:
+/*!*********************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/components/uni-popup/message.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23205,9 +23227,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!****************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages.json ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages.json ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

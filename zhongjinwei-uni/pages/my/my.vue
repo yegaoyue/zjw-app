@@ -10,17 +10,17 @@
 				</view>
 				<view class="right_bottom">
 					<text class="str">微信号:wx_165656</text>
-					<uni-icons type="arrowright" color="#b3b3b3" size="16"></uni-icons>
 				</view>
 			</view>
 		</view>
 
-		<!-- 		<uni-list :border="false">
-			<uni-list-item style="line-height: 80rpx;" title="默认 navigateTo" link to="/pages/vue/index/index" @click="onClick($event,1)"></uni-list-item>
-			<uni-list-item style="line-height: 80rpx;" title="reLaunch 方式跳转页面" link="reLaunch"></uni-list-item>
-		</uni-list> -->
-		<button class="btn" @click="changePassword">修改密码</button>
-		<button class="btn" @click="logout">退出登录</button>
+		<view class="btn">
+			<text @click="changePassword">修改密码</text>
+			<text @click="logout">退出登录</text>
+
+		</view>
+		<!-- 		<button class="btn" @click="changePassword">修改密码</button>
+		<button class="btn" @click="logout">退出登录</button> -->
 		<tab-bar></tab-bar>
 	</view>
 </template>
@@ -76,53 +76,50 @@
 </script>
 
 <style lang="less" scoped>
-	page {
-		height: 100vh -50;
-		background: #f7f7f7;
-	}
-
 	.info_box {
-		width: 100%;
-		height: 300rpx;
-		padding: 100rpx 3px 100rpx 50rpx;
-		border-radius: 5px;
-		box-sizing: border-box;
-		background-color: #fefefe;
-		margin-bottom: 20rpx;
+		padding: 50rpx 0 40rpx 0;
+		background-color: #2bb7aa;
+		border-radius: 0 0 20rpx 20rpx;
+		display: flex;
+		flex-direction: column;
+		opacity: 1;
 
 		.left {
-			width: 25%;
-			float: left;
+			display: flex;
+			justify-content: center;
+
 
 			image {
 				width: 150rpx;
 				height: 150rpx;
-				border-radius: 10%;
+				border-radius: 50%;
 			}
 		}
 
 		.right {
-			width: 75%;
-			float: left;
-			// margin-left: 20rpx;
+			display: flex;
+			flex-direction: column;
+
 
 			.right_top {
 				height: 75rpx;
 				line-height: 75rpx;
 				font-size: 38rpx;
 				font-weight: 700;
+				color: #fff;
+				opacity: 0.8;
+				text-align: center;
 			}
 
 			.right_bottom {
 				height: 75rpx;
 				line-height: 75rpx;
+				text-align: center;
 
 				.str {
-					display: inline-block;
-					width: 90%;
 					font-size: 30rpx;
-					color: #808080;
-					margin-right: 8rpx;
+					color: #fff;
+					opacity: 0.8;
 				}
 
 
@@ -131,10 +128,24 @@
 	}
 
 	.btn {
-		background-color: #fff;
-		font-size: 30rpx;
-		font-weight: 500;
-		margin-top: 20rpx;
-		color: #000;
+		position: fixed;
+		width: 100%;
+		bottom: 160rpx;
+		display: flex;
+		flex-direction: column;
+
+		text {
+			padding: 20rpx 0;
+			text-align: center;
+			border-radius: 10rpx;
+			background-color: #2bb7aa;
+			color: #fff;
+			font-size: 32rpx;
+			opacity: 0.9;
+		}
+
+		text:first-child {
+			margin-bottom: 20rpx;
+		}
 	}
 </style>

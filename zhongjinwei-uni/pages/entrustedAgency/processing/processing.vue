@@ -106,7 +106,7 @@
 		right: 0;
 		z-index: 9;
 		padding: 20rpx 24rpx;
-		background-color: #4fc08d;
+		background-color: #2bb7aa;
 
 
 		input {
@@ -116,6 +116,7 @@
 			border-radius: 10rpx;
 			background-color: #fff;
 			font-size: 24rpx;
+			opacity: 0.9;
 		}
 	}
 

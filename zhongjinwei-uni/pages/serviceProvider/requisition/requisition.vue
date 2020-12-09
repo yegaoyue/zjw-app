@@ -27,7 +27,7 @@
 
 				<province :provinceBisabled="form.maState === 2" :provinceStr="form.maProvince + ' ' + form.maCity" @emitProvince="emitProvince"></province>
 
-				<view class="item_box">
+				<!-- 	<view class="item_box">
 					<view class="item">
 						<text class="name">车管所</text>
 						<picker :disabled="form.maState === 2" style="flex: 1;text-align: right;" @change="bindPickerChange" :range="options"
@@ -35,7 +35,7 @@
 							<text class="value">{{form.sdvName}}</text>
 						</picker>
 					</view>
-				</view>
+				</view> -->
 
 				<view class="item_box">
 					<view class="item">
@@ -177,8 +177,8 @@
 					maCard: '', //身份证
 					maProvince: '', //车辆上牌省份
 					maCity: '', //车辆上牌城市
-					maSdvid: '', //车管所
-					sdvName: '请选择', //车管所label
+					// maSdvid: '', //车管所
+					// sdvName: '请选择', //车管所label
 					maManufacturer: '', //制造商
 					maBrandName: '', //品牌
 					maSeriesName: '', //车系
@@ -215,8 +215,8 @@
 				this.form.maCard = obj.maCard //身份证
 				this.form.maProvince = obj.maProvince //车辆上牌省份
 				this.form.maCity = obj.maCity //车辆上牌城市
-				this.form.maSdvid = obj.maSdvid //车管所
-				this.form.sdvName = obj.sdvName //车管所label
+				// this.form.maSdvid = obj.maSdvid //车管所
+				// this.form.sdvName = obj.sdvName //车管所label
 				this.form.maManufacturer = obj.maManufacturer //制造商
 				this.form.maBrandName = obj.maBrandName //品牌
 				this.form.maSeriesName = obj.maSeriesName //车系
@@ -323,9 +323,11 @@
 					title = '手机号有误'
 				} else if (form.maCity === '') {
 					title = '请选择上牌地区'
-				} else if (form.maSdvid === '') {
-					title = '请选择车管所'
-				} else if (form.maManufacturer === '') {
+				}
+				//  else if (form.maSdvid === '') {
+				// 	title = '请选择车管所'
+				// }
+				else if (form.maManufacturer === '') {
 					title = '请选择车辆'
 				} else if (form.maInvoicePrice === '') {
 					title = '请输入开票价'

@@ -3,7 +3,7 @@
 		<view v-for="(item,index) in list" :key="index" class="tab-bar-item" @click="switchTab(item, index)">
 			<view class="icon" :class="[item.fontIcon , selected == index ? 'selectedColor' : 'color']"></view>
 			<!-- <image class="tab_img" :src="selected === index ? item.selectedIconPath : item.iconPath"></image> -->
-			<view class="tab_text" :style="{color: selected === index ? selectedColor : color}">{{item.text}}</view>
+			<view class="tab_text" :style="{color: selected == index ? selectedColor : color}">{{item.text}}</view>
 		</view>
 	</view>
 </template>
@@ -13,8 +13,8 @@
 		data() {
 			return {
 				selected: '', //点击tabBar-index
-				color: "#333333",
-				selectedColor: "#1296db",
+				color: "#909399",
+				selectedColor: "#2bb7aa",
 				list: [
 					// {
 					// 	pagePath: "/pages/entrustedAgency/upcoming/upcoming",  //页面路径
@@ -93,11 +93,11 @@
 			}
 
 			.selectedColor {
-				color: #1296db;
+				color: #2bb7aa;
 			}
 
 			.color {
-				color: #333333,
+				color: #909399,
 			}
 
 			.tab_img {

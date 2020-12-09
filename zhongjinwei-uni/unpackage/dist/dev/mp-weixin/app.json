@@ -28,6 +28,5 @@
   },
   "usingComponents": {
     "tab-bar": "/pages/common/tabBar"
-  },
-  "sitemapLocation": "sitemap32.json"
+  }
 }

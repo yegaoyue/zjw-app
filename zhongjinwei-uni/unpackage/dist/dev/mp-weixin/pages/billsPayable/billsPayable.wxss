@@ -1,8 +1,13 @@
-.box.data-v-0f5e8bc6 {
-  padding: 10rpx 20rpx 0rpx 20rpx;
+.search.data-v-0f5e8bc6 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  padding: 40rpx 0;
+  background-color: #518baf;
 }
-.scroll-Y.data-v-0f5e8bc6 {
-  padding-bottom: 10rpx;
+.box.data-v-0f5e8bc6 {
+  padding: 90rpx 20rpx 10rpx 20rpx;
 }
 .list.data-v-0f5e8bc6 {
   background-color: #fff;

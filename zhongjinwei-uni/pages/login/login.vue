@@ -2,11 +2,11 @@
 	<view>
 		<view class="login_box">
 			<view class="title">
-				Welcome to Locaticus
+				中呈卫
 			</view>
 
 			<view class="image">
-				<image src="../../static/images/1.png"></image>
+				<image src="../../static/images/3.png"></image>
 			</view>
 			<view class="input_box">
 				<input v-model="username" class="iconfont icon-denglu-yonghuming" type="text" placeholder="请输入账号" />
@@ -135,11 +135,8 @@
 								data: res[1].data.data.session_id
 
 							})
+
 							this.getAppMenu() //菜单
-							uni.showToast({
-								title: '登入成功',
-								duration: 2000,
-							});
 
 						}
 					})
@@ -176,8 +173,9 @@
 	.login_box {
 		height: 100vh;
 		padding: 35% 0;
-		background-color: #323542;
+		background-color: #8fd1b4;
 		box-sizing: border-box;
+		opacity: 0.9;
 	}
 
 	.title {
@@ -187,6 +185,7 @@
 		position: absolute;
 		top: 10%;
 		font-size: 50rpx;
+		opacity: 0.9;
 	}
 
 	.image {
@@ -194,8 +193,9 @@
 	}
 
 	.image image {
-		width: 200px;
-		height: 72px;
+		width: 298rpx;
+		height: 360rpx;
+		opacity: 0.9;
 	}
 
 	.input_box {
@@ -209,13 +209,14 @@
 		font-size: 24rpx;
 		padding-left: 80rpx;
 		padding-right: 60rpx;
-		background-color: #464955;
+		background-color: #fff;
 		margin-bottom: 50rpx;
 		height: 100rpx;
 		line-height: 100rpx;
 		border-radius: 5px;
 		color: #a9a9a9;
 		position: relative;
+		opacity: 0.7;
 	}
 
 	.input_box button {

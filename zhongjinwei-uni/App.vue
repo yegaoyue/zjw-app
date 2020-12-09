@@ -4,18 +4,18 @@
 			var _this = this;
 			//#ifdef APP-PLUS  
 			uni.request({
-				url: `http://172.16.8.18:8089/testApp/hello`,
-				method: 'POST',
+				url: `http://172.16.9.200/collection/appversions/getAppVersion`,
+				method: 'get',
 				success: res => {
-					if (res.data.code == 200) {
+					if (res.data.code == 0) {
 						plus.runtime.getProperty(plus.runtime.appid, function(inf) {
-							if (inf.version != res.data.result.version) {
+							if (inf.version != res.data.data.appVersion) {
 								uni.showModal({
-									title: `发现新版本${res.data.result.version},当前版本${inf.version}`,
+									title: `发现新版本${res.data.data.appVersion},当前版本${inf.version}`,
 									content: "确认下载更新",
 									success: (fage) => {
 										if (fage.confirm) { //当用户确定更新，执行更新
-											let url = res.data.result.url
+											let url = res.data.data.appUrl
 											_this.updatedVersion(url)
 										} else if (fage.cancel) { //用户取消，重启
 											plus.runtime.restart();

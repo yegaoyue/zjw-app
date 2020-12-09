@@ -12,9 +12,9 @@
 /* 10 */,
 /* 11 */,
 /* 12 */
-/*!**********************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/main.js?{"page":"pages%2Flogin%2Flogin"} ***!
-  \**********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/main.js?{"page":"pages%2Flogin%2Flogin"} ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27,9 +27,9 @@ createPage(_login.default);
 
 /***/ }),
 /* 13 */
-/*!***************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/login/login.vue ***!
-  \***************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/login/login.vue ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -67,9 +67,9 @@ component.options.__file = "pages/login/login.vue"
 
 /***/ }),
 /* 14 */
-/*!**********************************************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/login/login.vue?vue&type=template&id=b237504c&scoped=true& ***!
-  \**********************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/login/login.vue?vue&type=template&id=b237504c&scoped=true& ***!
+  \******************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -88,9 +88,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 15 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/login/login.vue?vue&type=template&id=b237504c&scoped=true& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/login/login.vue?vue&type=template&id=b237504c&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -123,9 +123,9 @@ render._withStripped = true
 
 /***/ }),
 /* 16 */
-/*!****************************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/login/login.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/login/login.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -138,9 +138,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 17 */
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/login/login.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/login/login.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -202,136 +202,63 @@ var _interface = __webpack_require__(/*! @/utils/interface.js */ 18); //
 //
 //
 //
-var _default = { data: function data() {return { fage: false, username: 'xindao02', password: '123456', list: [// {
-      // 	pagePath: "/pages/entrustedAgency/upcoming/upcoming",
-      // 	iconPath: "/static/images/home1.png",
-      // 	selectedIconPath: "/static/images/home2.png",
-      // 	text: "待办",
-      // 	fontIcon: "iconfont icon-pending"
-      // },
-      // {
-      // 	pagePath: "/pages/entrustedAgency/processing/processing",
-      // 	text: "办理中",
-      // 	fontIcon: "iconfont icon-banlizhongxin"
-      // },
-      // {
-      // 	pagePath: "/pages/entrustedAgency/receivePayment/receivePayment",
-      // 	text: "收款账单",
-      // 	fontIcon: "iconfont icon-shouruzhangdan"
-      // },
-      // {
-      // 	pagePath: "/pages/my/my",
-      // 	iconPath: "/static/images/my1.png",
-      // 	selectedIconPath: "/static/images/my2.png",
-      // 	text: "我的",
-      // 	fontIcon: "iconfont icon-account-fill"
-      // },
-      // 委托商
-      { pagePath: "/pages/serviceProvider/requisitionData/requisitionData", text: "申请单", fontIcon: "iconfont icon-order-fill" }, { pagePath: "/pages/serviceProvider/requisition/requisitionAdd", text: "添加", fontIcon: "iconfont icon-tianjiadanju" }, { pagePath: "/pages/billsPayable/billsPayable", text: "应付账单",
-        fontIcon: "iconfont icon-tuikuanzhangdan" },
-
-      {
-        pagePath: "/pages/my/my",
-        iconPath: "/static/images/my1.png",
-        selectedIconPath: "/static/images/my2.png",
-        text: "我的",
-        fontIcon: "iconfont icon-account-fill" }
-
-
-
-      // 财务
-      // {
-      // 	pagePath: "/pages/billsPayable/billsPayable",
-      // 	text: "应付账单",
-      // 	fontIcon: "iconfont icon-home-fill"
-      // },
-      // {
-      // 	pagePath: "/pages/my/my",
-      // 	iconPath: "/static/images/my1.png",
-      // 	selectedIconPath: "/static/images/my2.png",
-      // 	text: "我的",
-      // 	fontIcon: "iconfont icon-account-fill"
-
-      // },
-      ] };
-
-
-  },
-  methods: {
-    login: function login() {var _this = this;
-      uni.showLoading({
-        title: '登入中',
-        mask: true });
-
-
-      var toKen;
-      uni.request({
-        url: _interface.baseUrl + 'sys/login',
-        // url: baseUrl + 'sys/loginApp',
-        method: 'POST',
-        data: {
-          'username': this.username,
-          'password': this.password },
-
-        header: {
-          'X-Requested-With': 'XMLHttpRequest',
-          "Content-Type": "application/json; charset=UTF-8",
-          'toKen': toKen },
-
-        success: function success(res) {
-          if (res.data.code === 5001) {
-            uni.showToast({
-              title: res.data.msg,
-              duration: 2000,
-              icon: 'none' });
-
-          }
-          if (res.data.code === 0) {
-            uni.hideLoading(); //隐藏 loading 提示框。
-            toKen = res.data.data.session_id;
-            uni.setStorage({
-              key: 'toKen',
-              data: toKen });
-
-
-            uni.showToast({
-              title: '登入成功',
-              duration: 2000 });
-
-
-            uni.setStorage({
-              key: 'tabbarList',
-              data: _this.list });
-
-
-            uni.setStorage({
-              key: 'index',
-              data: 0 });
-
-
-
-            uni.reLaunch({
-              url: _this.list[0].pagePath });
-
-
-            // 委托机构
-            // uni.reLaunch({
-            // 	url: '../entrustedAgency/upcoming/upcoming'
-            // })
-            // 委托商
-            // uni.reLaunch({
-            // 	url: '../serviceProvider/requisitionData/requisitionData'
-            // })
-            // 财务
-            // uni.reLaunch({
-            // 	url: '../billsPayable/billsPayable'
-            // })
-          }
-
-        } });
-
-    },
-    SignIn: function SignIn() {
+var _default = { data: function data() {return { fage: false, username: 'xindao02', password: '123456', list: [// 委托机构
+        // {
+        // 	pagePath: "/pages/entrustedAgency/upcoming/upcoming",
+        // 	text: "待办",
+        // 	fontIcon: "iconfont icon-pending"
+        // },
+        // {
+        // 	pagePath: "/pages/entrustedAgency/processing/processing",
+        // 	text: "办理中",
+        // 	fontIcon: "iconfont icon-banlizhongxin"
+        // },
+        // {
+        // 	pagePath: "/pages/entrustedAgency/receivePayment/receivePayment",
+        // 	text: "收款账单",
+        // 	fontIcon: "iconfont icon-shouruzhangdan"
+        // },
+        // {
+        // 	pagePath: "/pages/my/my",
+        // 	text: "我的",
+        // 	fontIcon: "iconfont icon-account-fill"
+        // },
+        // 委托商
+        // {
+        // 	pagePath: "/pages/serviceProvider/requisitionData/requisitionData",
+        // 	text: "申请单",
+        // 	fontIcon: "iconfont icon-order-fill"
+        // },
+        // {
+        // 	pagePath: "/pages/serviceProvider/requisition/requisitionAdd",
+        // 	text: "添加",
+        // 	fontIcon: "iconfont icon-tianjiadanju"
+        // },
+        // {
+        // 	pagePath: "/pages/billsPayable/billsPayable",
+        // 	text: "应付账单",
+        // 	fontIcon: "iconfont icon-tuikuanzhangdan"
+        // },
+        // {
+        // 	pagePath: "/pages/my/my",
+        // 	text: "我的",
+        // 	fontIcon: "iconfont icon-account-fill"
+        // },
+        // 财务
+        // {
+        // 	pagePath: "/pages/billsPayable/billsPayable",
+        // 	text: "应付账单",
+        // 	fontIcon: "iconfont icon-home-fill"
+        // },
+        // {
+        // 	pagePath: "/pages/my/my",
+        // 	text: "我的",
+        // 	fontIcon: "iconfont icon-account-fill"
+        // },
+      ] };}, onLoad: function onLoad() {uni.clearStorageSync(); //清除本地缓存
+  }, methods: {
+    // 登入
+    SignIn: function SignIn() {var _this = this;
       if (this.username === '') {
         uni.showToast({
           title: '请输入账号',
@@ -345,44 +272,45 @@ var _default = { data: function data() {return { fage: false, username: 'xindao0
           icon: 'none' });
 
       } else {
-        this.login();
+        (0, _interface.loginApp)({
+          username: this.username,
+          password: this.password }).
+        then(function (res) {
+          if (res[1].data.code === 0) {
+            uni.setStorage({
+              key: 'toKen',
+              data: res[1].data.data.session_id });
 
 
-        // login({
-        // 	username: this.username,
-        // 	password: this.password
-        // }).then(res => {
-        // 	if (res[1].data.code === 0) {
-        // 		uni.setStorage({
-        // 			key: 'toKen',
-        // 			data: res[1].data.data.session_id
 
-        // 		})
-        // 		uni.showToast({
-        // 			title: '登入成功',
-        // 			duration: 2000,
-        // 		});
+            _this.getAppMenu(); //菜单
 
-        // 		uni.setStorage({
-        // 			key: 'tabbarList',
-        // 			data: this.list
-
-        // 		})
-        // 		uni.setStorage({
-        // 			key: 'index',
-        // 			data: 0
-
-        // 		})
-
-        // 		uni.reLaunch({
-        // 			url: '../serviceProvider/requisitionData/requisitionData'
-        // 		})
-        // 	}
-        // })
-
+          }
+        });
 
       }
+    },
 
+    // 菜单
+    getAppMenu: function getAppMenu() {var _this2 = this;
+      (0, _interface.getAppMenu)().then(function (res) {
+        if (res[1].data.code === 0) {
+          _this2.list = res[1].data.data;
+          uni.setStorage({
+            key: 'tabbarList',
+            data: _this2.list });
+
+
+          uni.setStorage({
+            key: 'index',
+            data: 0 });
+
+
+          uni.reLaunch({
+            url: _this2.list[0].pagePath });
+
+        }
+      });
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
@@ -390,9 +318,9 @@ var _default = { data: function data() {return { fage: false, username: 'xindao0
 /* 18 */,
 /* 19 */,
 /* 20 */
-/*!************************************************************************************************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/login/login.vue?vue&type=style&index=0&id=b237504c&scoped=true&lang=css& ***!
-  \************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/login/login.vue?vue&type=style&index=0&id=b237504c&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -405,9 +333,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 21 */
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Desktop/yesong-git/zhongjinwei-uni/pages/login/login.vue?vue&type=style&index=0&id=b237504c&scoped=true&lang=css& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Desktop/yesong/zhongjinwei-uni/pages/login/login.vue?vue&type=style&index=0&id=b237504c&scoped=true&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

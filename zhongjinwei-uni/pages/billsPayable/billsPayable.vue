@@ -1,5 +1,6 @@
 <template>
 	<view class="content">
+		<view class="search"></view>
 		<text v-if="list.length == 0" style="font-size: 35rpx;color:#708090; display: inline-block;position:absolute;top: 45%; left: 50%;  transform: translate(-50%, -50%);">
 			-----暂无数据-----
 		</text>
@@ -38,7 +39,7 @@
 			return {
 				inputValue: '', //搜索value
 				inputId: '', //搜索id
-				list: []
+				list: [],
 			}
 		},
 
@@ -53,13 +54,17 @@
 
 		methods: {
 			// 列表数据
-			handleMoneyForService() {
+			handleMoneyForService(config) {
 				handleMoneyForService({
 					page: 1,
 					limit: 1000,
 				}).then(res => {
 					if (res[1].data.code === 0) {
 						this.list = res[1].data.data
+						if (config) {
+							config() //关闭下拉刷新
+						}
+
 					}
 				})
 			},
@@ -78,15 +83,19 @@
 </script>
 
 <style lang="less" scoped>
+	.search {
+		position: fixed;
+		left: 0;
+		right: 0;
+		z-index: 9;
+		padding: 40rpx 0;
+		background-color: #2bb7aa;
+
+	}
+
 	.box {
-		padding: 10rpx 20rpx 0rpx 20rpx;
+		padding: 90rpx 20rpx 10rpx 20rpx;
 	}
-
-	.scroll-Y {
-		padding-bottom: 10rpx;
-	}
-
-
 
 	.list {
 		background-color: #fff;

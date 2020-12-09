@@ -1,5 +1,5 @@
-// const baseUrl = "http://172.16.9.200/collection/"; //200
-const baseUrl = "http://172.16.8.38:8088/collection/"; //马奎
+const baseUrl = "http://172.16.9.200/collection/"; //200
+// const baseUrl = "http://172.16.8.38:8088/collection/"; //马奎
 // const baseUrl = "http://172.16.8.31:8088/collection/"; //顶重阳
 const uploadUrl = "http://172.16.9.200:8055/"; //图片查看
 // 定义基础请求路径(后端服务器地址)
@@ -30,7 +30,7 @@ const baseRequest = (opts, data) => {
 		data: data,
 		// 传入请求参数
 		method: opts.method,
-		timeouut: [2000, 2000],
+		timeouut: 2000,
 
 		// 配置请求类型
 		header: opts.method == 'get' ? {
@@ -51,6 +51,7 @@ const baseRequest = (opts, data) => {
 			(res) => {
 				uni.hideLoading(); //隐藏 loading 提示框。
 				uni.stopPullDownRefresh(); //停止当前页面下拉刷新。
+
 				if (res[1].data.code === 0) {
 					// 请求成功
 					// uni.showToast({

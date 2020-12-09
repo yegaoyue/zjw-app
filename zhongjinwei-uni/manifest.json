@@ -1,9 +1,9 @@
 {
-    "name" : "中金卫",
+    "name" : "中呈卫",
     "appid" : "__UNI__2979A06",
-    "description" : "中金卫应用",
-    "versionName" : "2.0.0",
-    "versionCode" : 200,
+    "description" : "中呈卫应用",
+    "versionName" : "1.0.0",
+    "versionCode" : 100,
     "transformPx" : false,
     /* 5+App特有相关 */
     "app-plus" : {
@@ -88,9 +88,9 @@
             "splashscreen" : {
                 "androidStyle" : "default",
                 "android" : {
-                    "hdpi" : "C:/Users/Administrator/Desktop/zhongjinwei/branches/gaoyueYe/zhongjinwei-server-web/my-project/src/assets/ba21ca7640ac68e23b736f8b81c7586.png",
-                    "xhdpi" : "C:/Users/Administrator/Desktop/zhongjinwei/branches/gaoyueYe/zhongjinwei-server-web/my-project/src/assets/ba21ca7640ac68e23b736f8b81c7586.png",
-                    "xxhdpi" : "C:/Users/Administrator/Desktop/zhongjinwei/branches/gaoyueYe/zhongjinwei-server-web/my-project/src/assets/ba21ca7640ac68e23b736f8b81c7586.png"
+                    "hdpi" : "static/images/3.png",
+                    "xhdpi" : "",
+                    "xxhdpi" : ""
                 }
             }
         }
